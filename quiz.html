@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quiz App</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Quiz</h1>
+    <form id="quizForm">
+      <h3>Question 1:</h3>
+      <p>What is the capital of India?</p>
+      <input type="radio" name="q1" value="a"> a)Delhi<br>
+      <input type="radio" name="q1" value="b"> b) London<br>
+      <input type="radio" name="q1" value="c"> c) Madrid<br><br>
+
+      <h3>Question 2:</h3>
+      <p>What is the largest planet in our solar system?</p>
+      <input type="radio" name="q2" value="a"> a) Jupiter<br>
+      <input type="radio" name="q2" value="b"> b) Saturn<
+      br>
+      <input type="radio" name="q2" value="c"> c) Earth<br><br>
+
+      <h3>Question 3:</h3>
+      <p>The electrolytic rectifier operates on the principle that an aluminium electrode in an electrolyte will only conduct when it is charged?</p>
+      <input type="radio" name="q3" value="a"> a) negatively<br>
+      <input type="radio" name="q3" value="b"> b) positively<br>
+      <input type="radio" name="q3" value="c"> c) Both<br><br>
+
+      <h3>Question 4:</h3>
+      <p>which of the following can work dual side wave shape clipping</p>
+      <input type="radio" name="q4" value="a"> a) Diode<br>
+      <input type="radio" name="q4" value="b"> b) Triode<br>
+      <input type="radio" name="q4" value="c"> c) Traic<br><br>
+
+      <h3>Question 5:</h3>
+      <p>Firing angle of the use for?</p>
+      <input type="radio" name="q5" value="a"> a) To burn device any time of SCR<br>
+      <input type="radio" name="q5" value="b"> b) To Control on-off timing of SCR<br>
+      <input type="radio" name="q5" value="c"> c) To control off timing of general transistor<br><br>
+
+      
+      <h3>Question 6:</h3>
+      <p>What is the captial of karnataka?</p>
+      <input type="radio" name="q6" value="a"> a) Mysore<br>
+      <input type="radio" name="q6" value="b"> b) Bengaluru<br>
+      <input type="radio" name="q6" value="c"> c) Hasan<br><br>
+
+      <input type="submit" value="Submit" class="btn" id="submitBtn">
+    </form>
+    <button class="btn" onclick="location.href='index.html'">Back to Home</button>
+  </div>
+
+  <script src="script.js"></script>
+  <script>
+    // Display instructions on page load
+    window.onload = function() {
+      var instructions = "Instructions:\n\n1. Answer the following questions:\n\n- What is the capital of France?\n- What is the largest planet in our solar system?";
+      alert(instructions);
+    };
+  </script>
+</body>
+</html>
